@@ -1,0 +1,690 @@
+body {
+    perspective: 800px;
+}
+/*Cores*/
+#Nada {
+    background-color: rgb(rgba(255, 255, 255, 0));
+    width: 100px;
+    height: 100px;
+}
+#Nada-3D-Y-X {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Nada-3D-Y {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Nada-3D-X {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+#Preto {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+#Branco {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+#Vermelho {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#Azul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#Verde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#Amarelo {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+#Laranja {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+}
+
+#Roxo {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+#Cinza {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
+
+#Marro {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+#AzulClaro {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+#VerdeClaro {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+}
+
+#CinzaClaro {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+}
+
+#Rosa {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+#Dourado {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+}
+
+#Prata {
+    background-color: silver;
+    width: 100px;
+    height: 100px;
+}
+
+#AzulMarinho {
+    background-color: navy;
+    width: 100px;
+    height: 100px;
+}
+
+#Violeta {
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+}
+
+#Ciano {
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+}
+
+#Magenta {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+}
+#Preto-3D-Y {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Preto-3D-X {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Preto-3D-Y-X {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Branco-3D-Y {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Branco-3D-X {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Branco-3D-Y-X {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Vermelho-3D-Y {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Vermelho-3D-X {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Vermelho-3D-Y-X {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Azul-3D-Y {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Azul-3D-X {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Azul-3D-Y-X {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Verde-3D-Y {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Verde-3D-X {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Verde-3D-Y-X {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Amarelo-3D-Y {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Amarelo-3D-X {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Amarelo-3D-Y-X {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Laranja-3D-Y {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Laranja-3D-X {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Laranja-3D-Y-X {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Roxo-3D-Y {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Roxo-3D-X {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Roxo-3D-Y-X {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Cinza-3D-Y {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Cinza-3D-X {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Cinza-3D-Y-X {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Marro-3D-Y {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Marro-3D-X {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Marro-3D-Y-X {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#AzulClaro-3D-Y {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#AzulClaro-3D-X {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#AzulClaro-3D-Y-X {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#VerdeClaro-3D-Y {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#VerdeClaro-3D-X {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#VerdeClaro-3D-Y-X {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#CinzaClaro-3D-Y {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#CinzaClaro-3D-X {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#CinzaClaro-3D-Y-X {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Rosa-3D-Y {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Rosa-3D-X {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Rosa-3D-Y-X {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Dourado-3D-Y {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Dourado-3D-X {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Dourado-3D-Y-X {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Prata-3D-Y {
+    background-color: silver;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Prata-3D-X {
+    background-color: silver;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Prata-3D-Y-X {
+    background-color: silver;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#AzulMarinho-3D-Y {
+    background-color: navy;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#AzulMarinho-3D-X {
+    background-color: navy;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#AzulMarinho-3D-Y-X {
+    background-color: navy;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Violeta-3D-Y {
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Violeta-3D-X {
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Violeta-3D-Y-X {
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Ciano-3D-Y {
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Ciano-3D-X {
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Ciano-3D-Y-X {
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+#Magenta-3D-Y {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg);
+}
+
+#Magenta-3D-X {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(45deg);
+}
+
+#Magenta-3D-Y-X {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(45deg) rotateX(45deg);
+}
+
+
+/*Fim Cores*/
+/*-------------*/
+
+
+/*Animações*/
+.anim-a{
+    transition: all 0.1s ease;
+}
+.anim-b{
+    transition: all 0.2s ease;
+}
+.anim-c{
+    transition: all 0.3s ease;
+}
+.anim-d{
+    transition: all 0.4s ease;
+}
+.anim-e{
+    transition: all 0.5s ease;
+}
+.anim-f{
+    transition: all 0.6s ease;
+}
+.anim-g{
+    transition: all 0.7s ease;
+}
+.anim-h{
+    transition: all 1s ease;
+}
+.anim-i{
+    transition: all 2s ease;
+}
+.anim-j{
+    transition: all 3s ease;
+}
+.anim-k{
+    transition: all 5s ease;
+}
+.anim-l{
+    transition: all 10s ease;
+}
+.anim-m{
+    transition: all 15s ease;
+}
+.anim-n{
+    transition: all 20s ease;
+}
+.anim-o{
+    transition: all 40s ease;
+}
+.anim-p{
+    transition: all 60s ease;
+}
+.anim-q{
+    transition: all 90s ease;
+}
+.anim-r{
+    transition: all 100s ease;
+}
+.anim-s{
+    transition: all 150s ease;
+}
+.anim-t{
+    transition: all 200s ease;
+}
+.anim-u{
+    transition: all 230s ease;
+}
+.anim-v{
+    transition: all 260s ease;
+}
+.anim-w{
+    transition: all 290s ease;
+}
+.anim-x{
+    transition: all 320s ease;
+}
+.anim-y{
+    transition: all 420s ease;
+}
+.anim-z{
+    transition: all 500s ease;
+}
+
+
+/*Fim animações*/
+/*-------------*/
+
+
+/* Imagens */
+.Brasil{
+    background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+.Gato{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0uT0bG9IAFrlybhVFnKxffAorcywjl-AjvhxS8zNE6psi3truUfdLQi5DSimL0gl3hTI&usqp=CAU);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+.Cachorro{
+    background-image: url(https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218450.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+.Suspeito{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzJTQHnoyn2VZnCVySXZgo7P3oq67w_FGTXQ4qiVtYt9gqRY0PEjiLyP8kkL9tCKDwAE&usqp=CAU);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+/*Fim Imagens*/
+/*-----------*/
